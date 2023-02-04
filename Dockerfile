@@ -1,4 +1,4 @@
-FROM python3.8
+FROM ubuntu:20.04
 MAINTAINER Simon Zhao "simonz@uoregon.edu"
 RUN apt-get update -y
 RUN apt-get install python3.8 python3-pip -y

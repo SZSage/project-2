@@ -60,4 +60,4 @@ debug_config = config["SERVER"]["DEBUG"]
 
 if __name__ == "__main__":
     print("Running on port:", config_port) 
-    app.run(debug=debug_config, port=int(config_port)) 
+    app.run(debug=debug_config, host="0.0.0.0" port=int(config_port))  
